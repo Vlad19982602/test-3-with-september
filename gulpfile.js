@@ -33,7 +33,7 @@ gulp.task("build-js", () => {
                 .on("end", browsersync.reload);
 });
 
-gulp.task("copy", () => {
+gulp.task("copy-dist", () => {
     return gulp.src("src/**/*.*")
                 .pipe(gulp.dest(dist))
                 .on("end", browsersync.reload);
@@ -52,10 +52,10 @@ gulp.task("watch", () => {
     });
     
     gulp.watch("src/*.html", gulp.parallel("copy-html"));
-    gulp.watch("src/**/*.*", gulp.parallel("copy"));
+    gulp.watch("src/**/*.*", gulp.parallel("copy-dist"));
     gulp.watch("src/js/**/*.js", gulp.parallel("build-js"));
 });
 
-gulp.task("build", gulp.parallel("copy-html", "copy", "build-js"));
+gulp.task("build", gulp.parallel("copy-html", "copy-dist", "build-js"));
 
 gulp.task("default", gulp.parallel("watch", "build"));
