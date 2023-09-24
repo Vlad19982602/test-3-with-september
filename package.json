@@ -2,7 +2,7 @@
   "name": "diplom",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build",
@@ -20,10 +20,10 @@
   "homepage": "https://github.com/Vlad19982602/test-3_with_september#readme",
   "devDependencies": {
     "browser-sync": "^2.27.11",
+    "browser-sync-webpack-plugin": "^2.3.0",
     "core-js": "^3.29.1",
     "gulp": "^4.0.2",
-    "sass": "^1.58.0",
-    "webpack": "^5.76.2",
+    "webpack": "^5.88.2",
     "webpack-stream": "^7.0.0"
   }
 }

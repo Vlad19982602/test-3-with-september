@@ -1,27 +1,13 @@
-import scrolling from './modules/pageup.js';
+import './lib/lib';
 
-
-window.addEventListener('DOMContentLoaded', () => {
-
-	scrolling('.pageup');
-	const menu = document.querySelector('.header-lists'),
-	menuItem = document.querySelectorAll('.header_item'),
-	hamburger = document.querySelector('.hamburger');
-
-	if(hamburger) {
-		hamburger.addEventListener('click', () => {
-			hamburger.classList.toggle('hamburger__active');
-			menu.classList.toggle('header-active');
-		});
-	}
-
-	if(menuItem) {
-		menuItem.forEach(item => {
-			item.addEventListener('click', () => {
-				hamburger.classList.toggle('hamburger__active');
-				menu.classList.toggle('header-active');
-			})
-		})
-	}
+//$('.active').on('click', sayHello);
+//$('.active').off('click', sayHello);
+$('button').on('click', function() {
+	$(this).toggleClass('active');
 });
 
+
+
+function sayHello() {
+	console.log('Hello!');
+}
