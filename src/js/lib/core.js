@@ -1,3 +1,11 @@
+import 'core-js/actual/promise';
+import 'core-js/actual/set';
+import 'core-js/actual/iterator';
+import 'core-js/actual/array/from';
+import 'core-js/actual/array/flat-map';
+import 'core-js/actual/structured-clone';
+import 'core-js/actual/array';
+
 // (() => {
 // 	const $ = function (selector) {
 // 		const elements = document.querySelectorAll(selector);

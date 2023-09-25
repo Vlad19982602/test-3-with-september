@@ -1,5 +1,13 @@
 import $ from "../core";
 
+import 'core-js/actual/promise';
+import 'core-js/actual/set';
+import 'core-js/actual/iterator';
+import 'core-js/actual/array/from';
+import 'core-js/actual/array/flat-map';
+import 'core-js/actual/structured-clone';
+import 'core-js/actual/array';
+
 $.prototype.addClass = function(...classNames) {
 	for (let i = 0; i < this.length; i++) {
 		this[i].classList.add(...classNames);

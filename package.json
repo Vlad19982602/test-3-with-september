@@ -21,7 +21,7 @@
   "devDependencies": {
     "browser-sync": "^2.27.11",
     "browser-sync-webpack-plugin": "^2.3.0",
-    "core-js": "^3.29.1",
+    "core-js": "^3.32.2",
     "gulp": "^4.0.2",
     "webpack": "^5.88.2",
     "webpack-stream": "^7.0.0"
