@@ -11427,6 +11427,34 @@ _core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.fadeOut = function(dur, 
 	return this;
 };
 
+_core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.fadeToggle = function(dur, display, fin) {
+	for (let i = 0; i < this.length; i++) {
+
+		if(window.getComputedStyle(this[i]).display === 'none') {
+			this[i].style.display = display || 'block';
+
+
+			const _fadeIn = (complection) => {
+				this[i].style.opacity = complection;
+			};
+	
+			const ani = this.animateOverTime(dur, _fadeIn, fin);
+			requestAnimationFrame(ani);
+		} else {
+			const _fadeOut = (complection) => {
+				this[i].style.opacity = 1 - complection;
+				if(complection === 1) {
+					this[i].style.display = 'none';
+				}
+			};
+			
+			const ani = this.animateOverTime(dur, _fadeOut, fin);
+			requestAnimationFrame(ani);
+		}
+	}
+	return this;
+};
+
 /***/ }),
 
 /***/ "./src/js/lib/modules/handlers.js":
@@ -11594,9 +11622,9 @@ __webpack_require__.r(__webpack_exports__);
 
 //$('.active').on('click', sayHello);
 //$('.active').off('click', sayHello);
-$('button').on('click', function() {
-	$('div').eq(2).toggleClass('active');
-});
+// $('button').on('click', function() {
+// 	$('div').eq(2).toggleClass('active');
+// });
 
 //console.log($('button').html('hello!'));
 
@@ -11606,8 +11634,19 @@ $('button').on('click', function() {
 // 	console.log('Hello!');
 // }
 
-$('.findme').fadeOut(1800);
+//$('.findme').fadeOut(1800);
 
+$('#first').on('click', ()=> {
+	$('div').eq(1).fadeToggle(800);
+});
+
+$('[data-count="second"]').on('click', () => {
+	$('div').eq(2).fadeToggle(800);
+});
+
+$('button').eq(2).on('click', () => {
+	$('.w-500').fadeToggle(800);
+});
 })();
 
 /******/ })()
