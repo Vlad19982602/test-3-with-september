@@ -11015,20 +11015,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_classes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/classes */ "./src/js/lib/modules/classes.js");
 /* harmony import */ var _modules_handlers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/handlers */ "./src/js/lib/modules/handlers.js");
 /* harmony import */ var _modules_actions__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/actions */ "./src/js/lib/modules/actions.js");
-/* harmony import */ var core_js_actual_promise__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/actual/promise */ "./node_modules/core-js/actual/promise/index.js");
-/* harmony import */ var core_js_actual_promise__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_promise__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var core_js_actual_set__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/actual/set */ "./node_modules/core-js/actual/set/index.js");
-/* harmony import */ var core_js_actual_set__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_set__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var core_js_actual_iterator__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/actual/iterator */ "./node_modules/core-js/actual/iterator/index.js");
-/* harmony import */ var core_js_actual_iterator__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_iterator__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var core_js_actual_array_from__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! core-js/actual/array/from */ "./node_modules/core-js/actual/array/from.js");
-/* harmony import */ var core_js_actual_array_from__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_array_from__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var core_js_actual_array_flat_map__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/actual/array/flat-map */ "./node_modules/core-js/actual/array/flat-map.js");
-/* harmony import */ var core_js_actual_array_flat_map__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_array_flat_map__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var core_js_actual_structured_clone__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! core-js/actual/structured-clone */ "./node_modules/core-js/actual/structured-clone.js");
-/* harmony import */ var core_js_actual_structured_clone__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_structured_clone__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var core_js_core_array__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! core-js/core/array */ "./node_modules/core-js/core/array/index.js");
-/* harmony import */ var core_js_core_array__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(core_js_core_array__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _modules_effects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/effects */ "./src/js/lib/modules/effects.js");
+/* harmony import */ var core_js_actual_promise__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/actual/promise */ "./node_modules/core-js/actual/promise/index.js");
+/* harmony import */ var core_js_actual_promise__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_promise__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var core_js_actual_set__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/actual/set */ "./node_modules/core-js/actual/set/index.js");
+/* harmony import */ var core_js_actual_set__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_set__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var core_js_actual_iterator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! core-js/actual/iterator */ "./node_modules/core-js/actual/iterator/index.js");
+/* harmony import */ var core_js_actual_iterator__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_iterator__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var core_js_actual_array_from__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/actual/array/from */ "./node_modules/core-js/actual/array/from.js");
+/* harmony import */ var core_js_actual_array_from__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_array_from__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var core_js_actual_array_flat_map__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! core-js/actual/array/flat-map */ "./node_modules/core-js/actual/array/flat-map.js");
+/* harmony import */ var core_js_actual_array_flat_map__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_array_flat_map__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var core_js_actual_structured_clone__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! core-js/actual/structured-clone */ "./node_modules/core-js/actual/structured-clone.js");
+/* harmony import */ var core_js_actual_structured_clone__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_structured_clone__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var core_js_core_array__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! core-js/core/array */ "./node_modules/core-js/core/array/index.js");
+/* harmony import */ var core_js_core_array__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(core_js_core_array__WEBPACK_IMPORTED_MODULE_12__);
+
 
 
 
@@ -11334,6 +11336,99 @@ _core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.toggle = function() {
 
 /***/ }),
 
+/***/ "./src/js/lib/modules/effects.js":
+/*!***************************************!*\
+  !*** ./src/js/lib/modules/effects.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../core */ "./src/js/lib/core.js");
+/* harmony import */ var core_js_actual_promise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/actual/promise */ "./node_modules/core-js/actual/promise/index.js");
+/* harmony import */ var core_js_actual_promise__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_promise__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_actual_set__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/actual/set */ "./node_modules/core-js/actual/set/index.js");
+/* harmony import */ var core_js_actual_set__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_set__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_actual_iterator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/actual/iterator */ "./node_modules/core-js/actual/iterator/index.js");
+/* harmony import */ var core_js_actual_iterator__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_iterator__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var core_js_actual_array_from__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/actual/array/from */ "./node_modules/core-js/actual/array/from.js");
+/* harmony import */ var core_js_actual_array_from__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_array_from__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var core_js_actual_array_flat_map__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/actual/array/flat-map */ "./node_modules/core-js/actual/array/flat-map.js");
+/* harmony import */ var core_js_actual_array_flat_map__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_array_flat_map__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var core_js_actual_structured_clone__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/actual/structured-clone */ "./node_modules/core-js/actual/structured-clone.js");
+/* harmony import */ var core_js_actual_structured_clone__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_actual_structured_clone__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var core_js_core_array__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/core/array */ "./node_modules/core-js/core/array/index.js");
+/* harmony import */ var core_js_core_array__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_core_array__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
+
+
+
+
+
+
+_core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.animateOverTime = function (dur, callback, fin) {
+	let timeStart;
+
+	function _animateOverTime(time) {
+		if (!timeStart) {
+			timeStart = time;
+		}
+
+		let timeElapsed = time - timeStart;
+		let complection = Math.min(timeElapsed / dur, 1);
+
+		callback(complection);
+
+		if (timeElapsed < dur) {
+			requestAnimationFrame(_animateOverTime);
+		} else {
+			if (typeof fin === 'function') {
+				fin();
+			}
+		}
+	}
+
+	return _animateOverTime;
+};
+
+_core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.fadeIn = function(dur, display, fin) {
+	for (let i = 0; i < this.length; i++) {
+		this[i].style.display = display || 'block';
+
+
+		const _fadeIn = (complection) => {
+			this[i].style.opacity = complection;
+		};
+
+		const ani = this.animateOverTime(dur, _fadeIn, fin);
+		requestAnimationFrame(ani);
+	}
+
+	return this;
+};
+
+_core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.fadeOut = function(dur, fin) {
+	for (let i = 0; i < this.length; i++) {
+
+
+		const _fadeOut = (complection) => {
+			this[i].style.opacity = 1 - complection;
+			if(complection === 1) {
+				this[i].style.display = 'none';
+			}
+		};
+		
+		const ani = this.animateOverTime(dur, _fadeOut, fin);
+		requestAnimationFrame(ani);
+	}
+
+	return this;
+};
+
+/***/ }),
+
 /***/ "./src/js/lib/modules/handlers.js":
 /*!****************************************!*\
   !*** ./src/js/lib/modules/handlers.js ***!
@@ -11511,8 +11606,7 @@ $('button').on('click', function() {
 // 	console.log('Hello!');
 // }
 
-console.log($('.more').eq(0).siblings());
-	
+$('.findme').fadeOut(1800);
 
 })();
 
