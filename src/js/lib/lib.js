@@ -1,16 +1,19 @@
-import $ from "./core";
-import './modules/display';
-import './modules/classes';
-import './modules/handlers';
-import './modules/actions';
-import './modules/effects';
+import $ from "./core.js";
 
-import 'core-js/actual/promise';
-import 'core-js/actual/set';
-import 'core-js/actual/iterator';
-import 'core-js/actual/array/from';
-import 'core-js/actual/array/flat-map';
-import 'core-js/actual/structured-clone';
-import 'core-js/core/array';
+import './modules/display.js';
+import './modules/classes.js';
+import './modules/handlers.js';
+import './modules/actions.js';
+import './modules/effects.js';
+import './modules/dropdown.js';
+import './modules/modal.js';
+
+// import 'core-js/actual/promise';
+// // import 'core-js/actual/set';
+// // import 'core-js/actual/iterator';
+// import 'core-js/actual/array/from';
+// // import 'core-js/actual/array/flat-map';
+// // import 'core-js/actual/structured-clone';
+// import 'core-js/actual/array';
 
 export default $;

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build",
-    "lint": "tsc"
+    "lint": "tsc",
+    "type": "module"
   },
   "repository": {
     "type": "git",
@@ -19,11 +20,24 @@
   },
   "homepage": "https://github.com/Vlad19982602/test-3_with_september#readme",
   "devDependencies": {
+    "@types/core-js": "^2.5.6",
     "browser-sync": "^2.27.11",
     "browser-sync-webpack-plugin": "^2.3.0",
     "core-js": "^3.32.2",
     "gulp": "^4.0.2",
+    "mkdirp": "^3.0.1",
+    "mocha": "^10.2.0",
+    "rimraf": "^5.0.5",
+    "semistandard": "^17.0.0",
+    "tape": "^5.7.0",
+    "vinyl-fs": "^4.0.0",
+    "vinyl-named": "^1.1.0",
     "webpack": "^5.88.2",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "glob-watcher": "^6.0.0",
+    "gulp-cli": "^2.3.0",
+    "vinyl": "^3.0.0"
   }
 }

@@ -1,12 +1,5 @@
-import { findIndex } from "core-js/core/array";
-import $ from "../core";
-import 'core-js/actual/promise';
-import 'core-js/actual/set';
-import 'core-js/actual/iterator';
-import 'core-js/actual/array/from';
-import 'core-js/actual/array/flat-map';
-import 'core-js/actual/structured-clone';
-import 'core-js/actual/array';
+//import { findIndex } from "core-js/actual/array";
+import $ from "../core.js";
 
 $.prototype.html = function(content) {
 	for (let i = 0; i < this.length; i++) {
