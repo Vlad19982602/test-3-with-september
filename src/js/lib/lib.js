@@ -5,8 +5,12 @@ import './modules/classes.js';
 import './modules/handlers.js';
 import './modules/actions.js';
 import './modules/effects.js';
-import './modules/dropdown.js';
-import './modules/modal.js';
+
+
+import './components/dropdown.js';
+import './components/modal.js';
+import './components/tab.js';
+import './components/accordion.js';
 
 // import 'core-js/actual/promise';
 // // import 'core-js/actual/set';

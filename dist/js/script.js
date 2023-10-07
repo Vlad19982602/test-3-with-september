@@ -15,3 +15,36 @@ $('#second').on('click', () => {
 $('button').eq(3).on('click', () => {
 	$('.w-500').fadeToggle(800);
 });
+
+$('#trigger').click(() => $('#trigger').createModal({
+	text: {
+		title: "Modal title",
+		body: "lorem"
+	},
+	btns: {
+		count: 3,
+		settings: [
+			[
+				'Close',
+				['btn-danger', 'mr-10'],
+				true
+			],
+			[
+				'Save changes',
+				['btn-success'],
+				false,
+				() => {
+					alert('Данные сохранены');
+				}
+			],
+			[
+				'Another button',
+				['btn-warning', 'ml-10'],
+				false,
+				() => {
+					alert('Helllo!');
+				}
+			]
+		]
+	}
+}));
