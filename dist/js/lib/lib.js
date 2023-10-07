@@ -11,6 +11,7 @@ import './components/dropdown.js';
 import './components/modal.js';
 import './components/tab.js';
 import './components/accordion.js';
+import './components/carousel.js';
 
 // import 'core-js/actual/promise';
 // // import 'core-js/actual/set';
