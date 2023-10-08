@@ -13,6 +13,8 @@ import './components/tab.js';
 import './components/accordion.js';
 import './components/carousel.js';
 
+import './services/request.js';
+
 // import 'core-js/actual/promise';
 // // import 'core-js/actual/set';
 // // import 'core-js/actual/iterator';
