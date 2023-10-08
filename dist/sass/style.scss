@@ -1,0 +1,39 @@
+
+@import 'media';
+
+@import 'general/variables';
+@import 'general/base';
+@import 'general/typofraphy';
+@import 'components/ui';
+@import 'helpers/classes';
+
+.pageup {
+	opacity: 0;
+	position: fixed;
+	bottom: 40px;
+	right: 5%;
+	border: 2px solid orangered;
+	color: orangered;
+	height: max-content;
+	min-height: 55px;
+	width: 55px;
+	border-radius: 50%;
+	z-index: 33;
+	background: hsla(0, 0%, 100%, .6);
+	padding: 0;
+	transition: 1s all;
+}
+.pageup svg {
+	fill: orangered;
+	transition: .3s;
+	transform: scale(1.5);
+	margin-left: 20px;
+	margin-top: calc(50% - 7px);
+}
+
+
+
+
+
+
+
