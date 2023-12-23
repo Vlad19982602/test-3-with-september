@@ -1,7 +1,6 @@
 const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
-const sass = require('gulp-sass')(require('sass'));
 
 
 const dist = "./dist/"; //эквивалентны с записью ниже
