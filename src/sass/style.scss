@@ -16,8 +16,8 @@ html {
 	position: fixed;
 	bottom: 40px;
 	right: 5%;
-	border: 2px solid orangered;
-	color: orangered;
+	border: var(--link-hover);
+	color: var(--header-bg);
 	height: max-content;
 	min-height: 55px;
 	width: 55px;
@@ -28,7 +28,7 @@ html {
 	transition: 1s all;
 }
 .pageup svg {
-	fill: orangered;
+	fill: var(--header-bg);
 	transition: .3s;
 	transform: scale(1.5);
 	margin-left: 20px;
@@ -48,6 +48,7 @@ html {
 
 .container {
 	padding-top: 62px;
+	height: 2500px;
 }
 
 

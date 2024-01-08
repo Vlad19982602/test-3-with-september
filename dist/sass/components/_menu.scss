@@ -2,14 +2,13 @@ body {
 	background: var(--body-bg);
 }
 header {
-	position: fixed;
-	width: 100%;
+	max-width: 100%;
 	min-height: 62px;
 	background: var(--header-bg);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 5px;
+	margin: 0 auto;
 	z-index: 555;
   }
   header .logo {
